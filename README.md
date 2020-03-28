@@ -13,12 +13,12 @@
 
  The application is deployed on [Heroku](https://www.heroku.com/home).
 
- [Click here](#) to access it.
+ [Click here](https://workout-tracker-2000.herokuapp.com/) to access it.
 
  ## Running locally
 
  1. Install the dependencies: ```npm install```;
- 2. In a separated terminal run ```mongod``` 
+ 2. In a separated terminal run ```mongod``` /
  3. Add the seeds: ```npm run seed```;
  4. Run: ```npm start```;
  5. The default  port is *3000*, so to access you must go to **http://localhost:3000**
