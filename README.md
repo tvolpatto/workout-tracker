@@ -4,9 +4,9 @@
 
   A workout tracker with a Mongo database with a Mongoose schema and handle routes with Express.
 
- ![home](#)
+ ![home](https://github.com/tvolpatto/workout-tracker/blob/master/public/images/screen1.png)
 
- ![Adding exercise](#)
+ ![Adding exercise](https://github.com/tvolpatto/workout-tracker/blob/master/public/images/screen2.png)
 
 
  ## Running 
