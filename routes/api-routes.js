@@ -20,6 +20,21 @@ module.exports = function (app) {
             res.json(err);
         });
     });
-
     
+    app.put("/api/workouts/:id", (req, res) => {
+        Workout.findByIdAndUpdate(req.params.id,
+            {
+                $push: {
+                    exercises: req.body
+                }
+            },
+            {
+                new: true,
+                runValidators: true
+        }).then(workoutDb => {
+                res.json(workoutDb);
+        }).catch(err => {
+                res.json(err);
+        });
+    });
 }
